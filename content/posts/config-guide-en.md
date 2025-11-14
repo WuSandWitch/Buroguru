@@ -1,12 +1,12 @@
 ---
 title: "Buroguru Configuration Guide: Customize Your Blog"
 description: "Complete guide to Buroguru configuration, learn how to easily customize your blog's appearance, features, and content settings."
-thumbnail: "/images/posts/5d4f8fb7-f5e5-48aa-9449-36e566fc37fb.png"
+thumbnail: "/images/posts/322de6e1-327a-4e9b-b1fe-9acdb7b61a9e.png"
 date: "2025-06-26"
 tags: ["tutorial"]
 ---
 
-![image.png](/images/posts/d3ef4fe8-31fa-4163-b198-971c36655f74.png)
+![image.png](/images/posts/45d9004d-9e6d-42a1-b8a4-65da79273ea8.png)
 
 
 # Buroguru Configuration Guide: Customize Your Blog
