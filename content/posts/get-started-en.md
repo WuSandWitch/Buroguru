@@ -1,7 +1,7 @@
 ---
 title: "Get Started: Setup your blog in 10 minutes "
 description: "Tutorial of setting up your own Buroguru."
-thumbnail: "/images/posts/9547ce62-eebf-41aa-b0ea-325e1c742204.png"
+thumbnail: "/images/posts/e8134130-767e-4141-9439-153d6d634f3e.png"
 date: "2025-06-22"
 tags: ["tutorial"]
 ---
@@ -45,38 +45,38 @@ To allow Buroguru to access your Notion database, you need to create a Notion In
 	Go to [Notion Integration](https://www.notion.so/profile/integrations) and click ‘Add Integration’, select the workspace where your database is located, and give your integration a name like ‘blog’, the logo is not required.
 
 
-	![image.png](/images/posts/88435c7a-a008-4e3e-92b6-aba041562da6.png)
+	![image.png](/images/posts/56e0527e-5c1a-4c66-a5eb-83c8c67fce12.png)
 
 2. Update the capabilities
 
 	Click the new added integration, In the **Content Capabilities** section, at least toggle **Read content.**
 
 
-	![image.png](/images/posts/d1c479c8-ee28-4b62-a179-ef1fc9ba60a4.png)
+	![image.png](/images/posts/73a47406-2279-4b20-885c-bcb0f036ca7b.png)
 
 3. Copy Notion token
 
 	After creating it, you’ll see a field labeled **`Internal Integration Token`**. Copy this token, we’ll use it later.
 
 
-	![image.png](/images/posts/d1ae5dfb-dedf-4b64-9557-32edc34b0d8e.png)
+	![image.png](/images/posts/6462841f-2735-4ecb-bec1-876e4d793df6.png)
 
 4. Add connection
 
 	Go back to the Notion database you create earlier in “full page”, click the three dots in the top right, then on the bottom, click **Connections** and select the integration just added.
 
 
-	![image.png](/images/posts/fdf10947-a045-485a-b700-3b922e0a4f5b.png)
+	![image.png](/images/posts/7215b1a0-c0d3-4c3c-80c5-df7690f75caf.png)
 
 
-	![image.png](/images/posts/ef804086-6ff1-47f8-9ed5-3527896f96af.png)
+	![image.png](/images/posts/ec28db54-cb57-4cf6-9729-19918b337b9b.png)
 
 5. Copy database id
 
 	Click **Share** button on the top right, and click **Copy Link,** and you’ll get a link like [`https://www.notion.so/wusandwitch-notes/212d51c8314480ca8d4ffa62487XXXXXX?v=212d51c8314480a89fea000cXXXXXX&source=copy_link`](https://www.notion.so/wusandwitch-notes/212d51c8314480ca8d4ffa624873e734?v=212d51c8314480a89fea000c43f4e73f) .
 
 
-	![image.png](/images/posts/646bc7d0-0318-4e9d-8704-1299faf5da7f.png)
+	![image.png](/images/posts/592805ac-9fbb-4f96-a77f-54d935dd9260.png)
 
 
 	And the `Database ID` will be the first id (the one before `?`), the one in the example will be  [`212d51c8314480ca8d4ffa62487XXXXXX`](https://www.notion.so/wusandwitch-notes/212d51c8314480ca8d4ffa624873e734?v=212d51c8314480a89fea000c43f4e73f)```, and keep it, we'll also use it later.
@@ -92,7 +92,7 @@ Once the Notion integration is ready, you can fork the Buroguru repository to yo
 	Go to [https://github.com/WuSandWitch/Buroguru](https://github.com/WuSandWitch/Buroguru) and click **Fork.**
 
 
-	![image.png](/images/posts/e4bf874b-1383-4e73-8deb-b147246d7fa7.png)
+	![image.png](/images/posts/6508d9eb-093b-4da5-9a3e-1af5b790665e.png)
 
 
 	Give the repository you like, like `WuSandWitch-Blog`
@@ -102,22 +102,22 @@ Once the Notion integration is ready, you can fork the Buroguru repository to yo
 	After clone, go to **Setting**, and then **Secrets and variables**, go to **Action,** and add the “Repository Secrets”, by clicking **New repository secret.**
 
 
-	![image.png](/images/posts/e60db54d-3f2f-429a-a39d-cc2f68cd19f2.png)
+	![image.png](/images/posts/fb4a9e61-9a0f-4565-b716-4c86bc19c741.png)
 
 
-	![image.png](/images/posts/1ab88800-7c72-45b7-9257-bceb95f10d72.png)
+	![image.png](/images/posts/992ebcc1-9c7a-49d0-91de-5cd2718db046.png)
 
 
 	Now add two secret, one is `NOTION_TOKEN`, which is the Notion Integration token we just keep.
 
 
-	![image.png](/images/posts/220e333c-75b5-4a0d-b516-a7a01f6106f8.png)
+	![image.png](/images/posts/caacd948-b1ae-440b-a762-51439531cc27.png)
 
 
 	And another one is `NOTION_DATABASE_ID` which is the blog database id we just keep.
 
 
-	![image.png](/images/posts/1dcd47eb-beb7-467e-a59d-097dc5703f10.png)
+	![image.png](/images/posts/bf98fcb3-c1ca-4b6d-8512-d3f292252137.png)
 
 
 ## Step 4: Deploy to Vercel
@@ -129,16 +129,16 @@ With your GitHub repository ready and secrets configured, it’s time to deploy 
 After logging in, click **+ Add New Project**, then select your forked repo (e.g., `WuSandWitch-Blog`).
 
 
-![image.png](/images/posts/8f4d7410-75cd-4860-a926-e332b7fc43d4.png)
+![image.png](/images/posts/770e657a-11b3-414f-9ac9-05a3c33f347d.png)
 
 
-![image.png](/images/posts/62191b3d-cdf0-4a9d-8d34-7547c4181873.png)
+![image.png](/images/posts/676ac30e-7c4c-4d15-8874-8510bacb0918.png)
 
 
 And with that, your blog should be welly deploy after you hit **Deploy. Congrats.**
 
 
-![image.png](/images/posts/91b66410-85d1-4183-9b70-431044b7fde4.png)
+![image.png](/images/posts/3f6ae5e1-fb5c-43c4-9913-894e92c8c977.png)
 
 
 # Next Step
