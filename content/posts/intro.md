@@ -1,7 +1,7 @@
 ---
 title: "What is Buroguru?"
 description: "Introduction of Buroguru - a blog framework that use Notion as CMS"
-thumbnail: "/images/posts/3de3c3bc-8c8e-4081-bfe6-3841a79d8f4f.png"
+thumbnail: "/images/posts/336a1fc6-4b74-427a-81c2-a28196da495c.png"
 date: "2025-06-23"
 tags: ["intro"]
 ---
