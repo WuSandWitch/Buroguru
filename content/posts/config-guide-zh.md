@@ -1,7 +1,7 @@
 ---
 title: "Buroguru 配置指南：自定義你的部落格"
 description: "完整的 Buroguru 配置教學，讓你輕鬆自定義部落格的外觀、功能和內容設定。"
-thumbnail: "/images/posts/643fe13d-b0e4-410a-9557-035575e7b81c.png"
+thumbnail: "/images/posts/d15a3306-e905-492a-9d6d-58f421ba71fe.png"
 date: "2025-06-26"
 tags: ["tutorial"]
 ---
