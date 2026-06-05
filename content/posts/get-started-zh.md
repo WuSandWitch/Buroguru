@@ -1,7 +1,7 @@
 ---
 title: "快速開始：用十分鐘設定你的部落格"
 description: "設定你的 Buroguru 教學"
-thumbnail: "/images/posts/8ebd4995-ce22-44f3-8f88-6fe9857064e0.png"
+thumbnail: "https://prod-files-secure.s3.us-west-2.amazonaws.com/d7df15bf-aa2b-4058-8eb8-6e3e917478e3/1eef75ea-de40-4f47-af86-8f4c7fdfe8f7/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664R3AVJWK%2F20260605%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260605T035745Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCW3lIIR7Iwi3b6x2x9Qj5vF2FCzpAEjZYpB%2FiQz1QcwgIhAKO%2FOOmFw7GAWKA4r0OsjtpvviHlFM6rHdZTJA6%2FixrpKv8DCGQQABoMNjM3NDIzMTgzODA1Igx5rVhw854Gumlui%2Fsq3ANV6D4TBK%2BrDTBAK08RJSpaFZyLDKBRCJRpgAsfsk9ooldXuk5H40Drm8Jkyju0a7aUXPqBJvZCOiM3cTpyx4A6jajOQiVPmvpiPQaY84fpiV%2FfFJ8qvaQUT6MO6AWIvZRkfcl0WyK75d8%2Bn%2Fcg05LK2zdBrttLN%2BNzTMzl4dwQMzvHFi7GaqzRU1n579anMEdznnBDe4iyCe%2FiCdEZ0yl4l4hSbgq3Lm%2FAOeS1YW17vQMtjHsU8cIkA1negFzpjZi1Nl1B%2BOJiS7xG6TqNjgzGg9a9AdsQ7C97uGLVXq89S%2BLBf5JHDiTRjOgbeMyPEKfCbEUDF11RetiGaKgyBpKImXx%2Fe9V7vMthdwtkDmPLK3ZGHO9HUfjND97TJIZL%2BgN1ZD2fXaM6qnas479P5%2BnUEm5FuE1lO51gd8DzbUB1WDNDkxTPiXMoUTZrg8k51RJFaDOMRvoWYv8glHm7NuILEiKaq0IRWtDO9lX53JEXZCgqVNrlc350oQSbYP7xgZeijWumdSQybEFR528rEzmreIQVdUOoQYDC9s8b4M7CRS9%2FTO%2FeSUluRmUsdnVY0LsfE2%2Bk%2Fdf4lXzCHdK%2B2BayYmNIXp9j7ROaCWzNffAsXsS16%2FQLMj%2B2mA1gRTD7%2FojRBjqkAUVNctWLBTb%2Fj9nJgZNUyo6LoEV5HVGgLm%2BDcYpXaPtWbq8PtrdbDiNq2NmfDq0I96sMFd97ch%2FrVgNagY1p%2BkeKKcgmhLhuS4lv3j7vGXAA1n2rr%2BKy1mF0eswydYy%2FSQqssA%2BsJDWupnpnsARcAZMluGWNK9%2F8wwO5rbZWlR6lmc3BuD%2BNLA1StM1TMwoEl9tvUgqrIpLZElwEiJccMbkQyRew&X-Amz-Signature=befb336d6d5268044b232a010029931dc5c9e2e101d8e244bacdc3a6ccec60d9&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject"
 date: "2025-06-22"
 tags: ["tutorial"]
 ---
@@ -45,31 +45,31 @@ tags: ["tutorial"]
 	前往 [Notion Integration 頁面](https://www.notion.so/profile/integrations)，點選「Add Integration」，選擇資料庫所在的 workspace，並輸入名稱，例如 `blog`，logo 可略。
 
 
-	![image.png](/images/posts/9dc850c6-d3f7-4f08-ba4a-6244177a2d96.png)
+	![image.png](/images/posts/8c127726-c854-4190-b3ba-38511a9d727f.png)
 
 2. 開啟權限
 
 	點進剛新增的 Integration，在 **Content Capabilities** 區塊中，至少開啟 **Read content** 權限。
 
 
-	![image.png](/images/posts/2028e5ff-84f3-4ff3-bfbd-02ec656874be.png)
+	![image.png](/images/posts/a3928144-2ba6-409c-9991-3f9aab01993f.png)
 
 3. 複製 Notion token
 
 	建立後你會看到 **Internal Integration Token**，請複製這個 Token，稍後會使用。
 
 
-	![image.png](/images/posts/ff7952ac-2e77-4ee4-9a27-b49bf4a896c3.png)
+	![image.png](/images/posts/9b41bbc2-6ba5-4a96-a344-589a26befb63.png)
 
 4. 加入資料庫連線
 
 	回到你剛剛建立的 Notion 資料庫（需為 full page），點右上角三點 → 選擇 **Connections**，並選擇剛剛建立的 Integration。
 
 
-	![image.png](/images/posts/80df52bb-70c3-40d9-b53e-efbc261d7e3e.png)
+	![image.png](/images/posts/83a1a849-8312-4af2-83b7-8fcd0972f6e7.png)
 
 
-	![image.png](/images/posts/277d4a0c-3e3f-4940-871b-c685f963e63d.png)
+	![image.png](/images/posts/b16e284f-39bc-458e-96c2-7ba839ecc3b4.png)
 
 5. 複製資料庫 ID
 
@@ -79,7 +79,7 @@ tags: ["tutorial"]
 	[`https://www.notion.so/wusandwitch-notes/212d51c8314480ca8d4ffa62487XXXXXX?v=...`](https://www.notion.so/212d51c8314480ca8d4ffa624873e734)
 
 
-	![image.png](/images/posts/abbde33b-d17c-4244-b025-a7314db11db4.png)
+	![image.png](/images/posts/d20b717f-34ae-4a77-8e6b-2d455810bda3.png)
 
 
 	`Database ID` 就是 `?` 前的那段 ID，例如上方範例為 `212d51c8314480ca8d4ffa62487XXXXXX`，請記下來，等等會用到。
@@ -98,29 +98,29 @@ tags: ["tutorial"]
 	替你的 repo 命名，例如 `WuSandWitch-Blog` 。
 
 
-	![image.png](/images/posts/990acd0a-ebb2-450a-9c23-304c970dda26.png)
+	![image.png](/images/posts/935f2185-604f-4150-ac15-2262cc90176b.png)
 
 2. 設定 GitHub Secrets / Notion Token
 
 	Fork 完成後，前往 **Settings → Secrets and variables → Actions**，然後點選 **New repository secret**
 
 
-	![image.png](/images/posts/c60f29bd-50fb-495e-93c2-3733ecb5eab1.png)
+	![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7df15bf-aa2b-4058-8eb8-6e3e917478e3/afb41d59-6547-49d6-832e-9fa56c0da652/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB4664EK775FD%2F20260605%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260605T040442Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJHMEUCIQD3dsdBZBWx9A4xyqstOUjpchwy1tlKorMS6%2B2lhhZTdwIgIXCye1jCFlVmfwRu6hIUgqxuwljt9sagU206cpESd0Yq%2FwMIZBAAGgw2Mzc0MjMxODM4MDUiDEpq%2Fxi%2BiluPOR0fAyrcA4%2F48GEhCLIFwljLJJX5GJxoHo6sf%2BXmXvdYVxkci6OmHOuuHtpXFHjnGGeGmds0NHJFrumR5P%2FK%2BS0TuxnsD17WvUM1KEBHI49Io3%2B90eXG1aHK27te3YNQn0n6OJtE8EmWkDktecxxGQe30L2RMveA%2BMzGmBdnmZoXSG1HY8bgoIpKsWDMKT7Y4sZfrRSS0QqS9kU9%2FU0WWCGUOu6Oi3VqYwO1z14QqiXxNGv2nF7CjPFfq8SQ2trv0xgsqXm%2FZJWfXH9ukrCeXJWm7Ha%2FogpeJJVYk77%2FYfksUzVIzvQB%2FZhIX%2BguE3l10H0dLntNp9pYd2KXvFhg0v8wedz7%2Fbp7rBMIdPV21DoPkMsKjLnIoPzWXaaYc1qlTI8A0ZatC%2F8HzRxiCsiWH7PqBM7VwToMbAbUsidOeo06Bf%2BMkX0tuESCEe9Mrff5Bru9z%2B1dckdUSoIZU47Lp9N4qMkSjlryMhg0TmBJPZx6ymjnnq1aL7RTnuklUq4JyMEZHywPLQmcqdGRgv64CZWuYINgWIfyr1bfnkdSICGnf10TNbpu4WzsMXznDDZ%2FwOPGKudYvusFyZ9ScQefBtKPPgygcdRXAYmNiC2CEuBwSxsNtKrYdK%2B2vkLcK1TvXlF%2BMNj%2BiNEGOqUB8X3OY2kfVie0TtxyXJV684iIyDQDWavgBxm3RU6uenE47V4nGgAyDmWtVvvx5tob0dESsrdI60qdjiiE7KNx3PUowOPJODVNz4RX56Il52LeBC%2FmfxEBCjRd2%2FEqlVB711oWJAfRYzYATFH8S4tNsLznbqEQxL26mhzQivyaejW0uLXZoPC%2BLLC7nMe44EBMy5zXDCU6RZhFxR0xWwY1Y81Zhnnv&X-Amz-Signature=8f94acd38d3ac65f3eca11a696872231e724b8296baf0baa4e1ebfb981908a95&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 
-	![image.png](/images/posts/0079f390-2e4d-44e6-a3f8-8972820461d2.png)
+	![image.png](/images/posts/2659ae5d-2445-477f-a57a-4f0f23473e88.png)
 
 
 	新增一個名稱為 `NOTION_TOKEN` 的 Secret，值為剛剛複製的 Notion Integration Token。
 
 
-	![image.png](/images/posts/8cf5c4aa-bfc7-4d57-9a87-af8c67234c89.png)
+	![image.png](/images/posts/e3700203-99d4-4769-9121-9a759adb28b5.png)
 
 
 	再新增一個 Secret 名稱為 `NOTION_DATABASE_ID`，值為你剛剛記下的資料庫 ID。
 
 
-	![image.png](/images/posts/e5b06351-3cd2-4148-b369-732c498f2ec7.png)
+	![image.png](/images/posts/293c1d61-89c5-4902-b712-87f4aef29d79.png)
 
 
 ## Step 4：部署到 Vercel
@@ -132,16 +132,16 @@ tags: ["tutorial"]
 登入後，點選 **+ Add New Project**，然後選擇你 fork 的 repo（例如 `WuSandWitch-Blog`）
 
 
-![image.png](/images/posts/9c637674-10df-4104-ad8c-31e019d58fd0.png)
+![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/d7df15bf-aa2b-4058-8eb8-6e3e917478e3/863a15a2-e286-4de5-9690-69a9c2b34078/image.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=ASIAZI2LB466QJK3ONL2%2F20260605%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20260605T040439Z&X-Amz-Expires=3600&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEJv%2F%2F%2F%2F%2F%2F%2F%2F%2F%2FwEaCXVzLXdlc3QtMiJIMEYCIQCx4LAXQosNFIozmrLu5%2FMHOn7dlQNmWEWTzLIThbZhdwIhAPxBKF2Gl2m4aaMfNnqZcTsFX4veFvD2egZY7krydQ5oKv8DCGQQABoMNjM3NDIzMTgzODA1Igw3nWuKJgwQ%2FAZdiF8q3AOIgTGAgkiqdMs%2BJ0ve1T61eToUD8lI1jPJbTlV9lOW9ERBys98YFWOCHHZKQpfa9YXxt773rlSC09SL%2BZNOCAVHp%2B1wCNTiRXVqi6bGnRGh7E91OJ2Y%2FnIF4B%2BpgR8aJiwCBPJfutfSrC2JIMirO05w7kXL%2FSAk4DRBK%2BOhU0tv47ujJ%2BrzD2u%2BuBGjnscgew5T9ge0Ju34RCIuAw3x%2FNUqKGXSti0nBkcpiPDyr7EEbqHCKOnO2%2FIs3OnUZ3AMJ4QfzCTKuux9y5LzHsNgYqFg%2FOyPIoizUntj3TYzkGT%2BniGSLk%2BV0b5rx80j9j4bIt7Vgfot3UXbW%2FMn0fpqvTWrDO%2B1Fl6jv94gVqgoyHp71SQN%2BQnoH6aJrUgnaUaGVtvBBN8ODq9ZsgfxyLxyHI9VVmpiyNl4vnQ9XMGmvYfOq9Gf76TkA2q%2B2C6f61YGbwFOJUazKht%2BaoNUiwQZD284owBevF2EBcb69cmP0KwdQ6s04KueLgVkiy%2FCdIfJ8TYol1x3YjyIvbt9IcwQaBZcPlAjLHBL6g91RMeNVc0%2FJ2E%2Fo1PhvaLwPbnfQDFNRZCyR0u97o2XjUBcDzdkI60Hi5QiKjchPddMtio7w1nQytOvxFwRjJBlO2x%2BDCQ%2F4jRBjqkAWv%2Bp8B2XMZP9RuQBDCudO1OLQx%2BWkbtfWMxE9OsfvbkAiAnKBCjPEY0LfHFHx%2B0sur8ozkRM%2Bl5C6tOvM4hi8WMamf5X5pft0EhjU6HtX3z2lhgbNv%2B%2BNoXMpIfd518E%2FcDK5nr3MsF7ZV7kvK5NyD82yVrARE3J7MhcxtTDt0e6cOunMc7V5iCsUxNN7EZHda4fRy98rtcCVA37iiV2NVVPPRM&X-Amz-Signature=92e51964cc4bfd43410b14e6d4b8a698f4ad1633a06bf0fd4db66dafb0985f10&X-Amz-SignedHeaders=host&x-amz-checksum-mode=ENABLED&x-id=GetObject)
 
 
-![image.png](/images/posts/eac53571-84bb-4d77-89bc-ae65c23cc8af.png)
+![image.png](/images/posts/00c42230-0438-40a4-999a-22b88b52bc29.png)
 
 
 按下 **Deploy** 即可部署，幾秒鐘後你的部落格就會正式上線！
 
 
-![image.png](/images/posts/14d6c00c-1851-4f16-98a4-da125ef1ef0b.png)
+![image.png](/images/posts/f795dd70-6e28-4d96-9ddb-e30e606e87e6.png)
 
 
 ## 下一步：個人化你的部落格
