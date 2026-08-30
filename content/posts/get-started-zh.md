@@ -1,7 +1,7 @@
 ---
 title: "快速開始：用十分鐘設定你的部落格"
 description: "設定你的 Buroguru 教學"
-thumbnail: "/images/posts/c9e75aae-015b-4a2d-8c4a-022af5179284.png"
+thumbnail: "/images/posts/b30fe0ad-bb27-4e06-abde-7f322db5b460.png"
 date: "2025-06-22"
 tags: ["tutorial"]
 ---
@@ -45,31 +45,31 @@ tags: ["tutorial"]
 	前往 [Notion Integration 頁面](https://www.notion.so/profile/integrations)，點選「Add Integration」，選擇資料庫所在的 workspace，並輸入名稱，例如 `blog`，logo 可略。
 
 
-	![image.png](/images/posts/dd1c37ff-4e80-4573-9128-ce4f2bcd0cec.png)
+	![image.png](/images/posts/b991d6fb-7b34-42bb-a580-e57fa254b2d2.png)
 
 2. 開啟權限
 
 	點進剛新增的 Integration，在 **Content Capabilities** 區塊中，至少開啟 **Read content** 權限。
 
 
-	![image.png](/images/posts/fafc078e-6f99-40ae-97c9-33d305a8cb8f.png)
+	![image.png](/images/posts/711defe8-f444-4f62-999e-5c3be4a42b2e.png)
 
 3. 複製 Notion token
 
 	建立後你會看到 **Internal Integration Token**，請複製這個 Token，稍後會使用。
 
 
-	![image.png](/images/posts/1abe744b-278c-4794-8d37-20bef925ea58.png)
+	![image.png](/images/posts/5c92405a-ba4d-446e-a6cb-ef3f9edaae35.png)
 
 4. 加入資料庫連線
 
 	回到你剛剛建立的 Notion 資料庫（需為 full page），點右上角三點 → 選擇 **Connections**，並選擇剛剛建立的 Integration。
 
 
-	![image.png](/images/posts/333d0837-bc54-4330-b796-77a5a87685bf.png)
+	![image.png](/images/posts/18c986f3-446d-43cd-9503-eb8a3dda0e83.png)
 
 
-	![image.png](/images/posts/549bee92-fa0c-415a-9de0-ba19c746ba4a.png)
+	![image.png](/images/posts/4b513292-2a33-48f8-bc9e-8aceac56bdeb.png)
 
 5. 複製資料庫 ID
 
@@ -79,7 +79,7 @@ tags: ["tutorial"]
 	[`https://www.notion.so/wusandwitch-notes/212d51c8314480ca8d4ffa62487XXXXXX?v=...`](https://www.notion.so/212d51c8314480ca8d4ffa624873e734)
 
 
-	![image.png](/images/posts/1fd89ca6-4fc6-4b2a-b871-06a9e89df659.png)
+	![image.png](/images/posts/1199cf70-3389-477b-a8c3-48d332568d7f.png)
 
 
 	`Database ID` 就是 `?` 前的那段 ID，例如上方範例為 `212d51c8314480ca8d4ffa62487XXXXXX`，請記下來，等等會用到。
@@ -98,29 +98,29 @@ tags: ["tutorial"]
 	替你的 repo 命名，例如 `WuSandWitch-Blog` 。
 
 
-	![image.png](/images/posts/1ec7fe89-b359-4561-862e-8ccb5d0decab.png)
+	![image.png](/images/posts/0f2a8228-c141-4aad-b2e5-327feb0dfc08.png)
 
 2. 設定 GitHub Secrets / Notion Token
 
 	Fork 完成後，前往 **Settings → Secrets and variables → Actions**，然後點選 **New repository secret**
 
 
-	![image.png](/images/posts/4645442a-1c85-47d6-9bca-72f24880b5cf.png)
+	![image.png](/images/posts/8e8143ac-0449-4112-a527-f07bd5545980.png)
 
 
-	![image.png](/images/posts/84724faa-23f3-42e7-a0f4-c392c65a1383.png)
+	![image.png](/images/posts/cd51e096-1b6c-4de6-a731-31018e3671ba.png)
 
 
 	新增一個名稱為 `NOTION_TOKEN` 的 Secret，值為剛剛複製的 Notion Integration Token。
 
 
-	![image.png](/images/posts/402d2353-3709-4437-a6e0-9ff9759eda24.png)
+	![image.png](/images/posts/6a308da9-4129-46e2-9778-f5449f7903b1.png)
 
 
 	再新增一個 Secret 名稱為 `NOTION_DATABASE_ID`，值為你剛剛記下的資料庫 ID。
 
 
-	![image.png](/images/posts/1cf19658-2e01-4641-836c-a438f68f593b.png)
+	![image.png](/images/posts/a21da9c7-c741-4752-bcac-c9bd1b38cd06.png)
 
 
 ## Step 4：部署到 Vercel
@@ -132,16 +132,16 @@ tags: ["tutorial"]
 登入後，點選 **+ Add New Project**，然後選擇你 fork 的 repo（例如 `WuSandWitch-Blog`）
 
 
-![image.png](/images/posts/facc80e3-077e-4a6d-8693-1e50afa4a3bb.png)
+![image.png](/images/posts/bca2ac69-e4db-4cfd-80c1-d908423893ef.png)
 
 
-![image.png](/images/posts/efe6b8a8-11fd-4d85-8ead-62996c31d40f.png)
+![image.png](/images/posts/9089128c-ffb1-4bf5-89b2-e71d8f3323a0.png)
 
 
 按下 **Deploy** 即可部署，幾秒鐘後你的部落格就會正式上線！
 
 
-![image.png](/images/posts/a70606a3-db48-4606-8ab6-6fd644fc0134.png)
+![image.png](/images/posts/312523b7-4ce9-4c2b-abef-d8809a549a1d.png)
 
 
 ## 下一步：個人化你的部落格
